@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Failed_send_form_because_firstname_is_empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dfc6ba03-4898-4f07-aeb8-73a6b05f609d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Failed_send_form_because_lastname_is_empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64ae396a-54f0-4608-9c3d-e81c57578c9f</testCaseGuid>
+</TestCaseEntity>

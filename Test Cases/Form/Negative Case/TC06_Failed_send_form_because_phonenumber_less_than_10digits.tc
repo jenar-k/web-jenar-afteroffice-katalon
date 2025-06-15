@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Failed_send_form_because_phonenumber_less_than_10digits</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20f89ef4-7ce6-4468-a189-b53341a4bbb0</testCaseGuid>
+</TestCaseEntity>

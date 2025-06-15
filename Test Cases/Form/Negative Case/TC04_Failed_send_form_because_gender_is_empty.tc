@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Failed_send_form_because_gender_is_empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d674730-9738-4ee1-93ff-8b24ee6877b0</testCaseGuid>
+</TestCaseEntity>

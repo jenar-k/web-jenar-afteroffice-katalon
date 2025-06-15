@@ -19,7 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 //Open Browser dan Menuju Halaman Website Demoqa
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.baseURL + "/automation-practice-form")
+
+WebUI.navigateToUrl(GlobalVariable.baseURL + '/automation-practice-form')
 
 // Maksimalkan ukuran window
 WebUI.maximizeWindow()
+
+WebUI.verifyElementPresent(findTestObject('Form/h1_Practice_Form'), 0)
+
+WebUI.verifyElementText(findTestObject('Form/h1_Practice_Form'), 'Practice Form')
+
+WebUI.verifyElementVisible(findTestObject('Form/h1_Practice_Form'))
+

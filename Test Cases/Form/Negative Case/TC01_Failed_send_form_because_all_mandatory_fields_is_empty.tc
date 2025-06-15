@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Failed_send_form_because_all_mandatory_fields_is_empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>792d25e9-ef8e-4348-803b-eb61c3779ec1</testCaseGuid>
+</TestCaseEntity>
