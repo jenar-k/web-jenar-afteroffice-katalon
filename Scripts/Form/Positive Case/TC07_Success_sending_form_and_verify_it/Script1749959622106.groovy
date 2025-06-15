@@ -51,20 +51,6 @@ WebUI.click(findTestObject('Form/date'))
 
 WebUI.delay(1)
 
-//// Misal ingin menghapus isi dari field input
-//TestObject inputField = findTestObject('Form/datepicker_dob')
-//
-//WebUI.click(inputField // Fokus ke field
-//    )
-//
-//WebUI.sendKeys(inputField, Keys.chord(Keys.CONTROL, 'a' // Ctrl + A
-//        ))
-//
-//WebUI.delay(1)
-//
-//WebUI.setText(findTestObject('Form/datepicker_dob'), '11 November 2000')
-//
-//WebUI.delay(1)
 WebUI.click(findTestObject('Form/txtarea_address'))
 
 WebUI.scrollToElement(findTestObject('Form/chckbox_hobbies_sports'), 0)
