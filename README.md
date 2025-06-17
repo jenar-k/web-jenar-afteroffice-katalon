@@ -1,7 +1,7 @@
 # 📘 QA Automation After Office Project - WEB UI TEST
 
 ### 👤 Introduction
-Halo! Saya Jenar K, seorang QA Automation enthusiast yang sedang mendalami pengujian perangkat lunak menggunakan **Katalon Studio Enterprise**. Saya percaya bahwa otomasi yang baik dapat meningkatkan kualitas dan efisiensi proses pengujian aplikasi.
+Halo! Saya Jenar Kuswidiardi, seorang QA Automation enthusiast yang sedang mendalami pengujian perangkat lunak menggunakan **Katalon Studio Enterprise**. Saya percaya bahwa otomasi yang baik dapat meningkatkan kualitas dan efisiensi proses pengujian aplikasi.
 
 ### 🚀 Project Information
 Proyek ini merupakan implementasi pengujian otomatis menggunakan **Katalon Studio Enterprise** untuk pengujian WEB UI secara automation.
