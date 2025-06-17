@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_subject</name>
+   <name>address</name>
    <tag></tag>
-   <elementGuidId>17ede890-be37-45d3-a62d-bf46aeee80be</elementGuidId>
+   <elementGuidId>0b7f52b0-a8f9-45fb-8cfa-28d806fb336c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//td[contains(text(),'Jalan Bersama Selalu no.1')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='subjectsInput']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

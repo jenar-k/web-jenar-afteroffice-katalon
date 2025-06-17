@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_subject</name>
+   <name>container_subjects_for_auto_complete</name>
    <tag></tag>
-   <elementGuidId>17ede890-be37-45d3-a62d-bf46aeee80be</elementGuidId>
+   <elementGuidId>aa97acfe-ce52-4446-a217-2e9fa9807cb2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='subjectsInput']</value>
+         <value>//div[@id='subjectsContainer']/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

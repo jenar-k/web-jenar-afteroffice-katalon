@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import java.nio.file.Paths as Paths
+import java.io.File as File
 
 WebUI.callTestCase(findTestCase('Open Common Website (DemoQA-Form)/Open Website'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -25,7 +28,7 @@ WebUI.setText(findTestObject('Form/txt_first_name'), 'Jenar')
 
 WebUI.setText(findTestObject('Form/txt_last_name'), 'Kuswidiardi')
 
-WebUI.setText(findTestObject('Form/txt_email_user'), 'jenar@yopmail.com')
+WebUI.setText(findTestObject('Form/txt_email_user'), 'jenar@yopmail')
 
 WebUI.scrollToElement(findTestObject('Form/radiobtn_gender_male'), 0)
 
@@ -61,6 +64,20 @@ WebUI.click(findTestObject('Form/chckbox_hobbies_reading'))
 
 WebUI.scrollToElement(findTestObject('Form/txtarea_address'), 0)
 
+String projectDir = RunConfiguration.getProjectDir()
+
+String relativeFilePath = 'Asset/user-profile.jpg'
+
+File pictureFile = Paths.get(projectDir, relativeFilePath).toFile()
+
+if (pictureFile.exists()) {
+    println('Picture file found at: ' + pictureFile.getAbsolutePath())
+
+    WebUI.uploadFile(findTestObject('Form/input_upload_attachment'), pictureFile.getAbsolutePath())
+} else {
+    println('picture file not found at: ' + pictureFile.getAbsolutePath())
+}
+
 WebUI.setText(findTestObject('Form/txtarea_address'), 'Jalan Bersama Selalu no.1')
 
 WebUI.scrollToElement(findTestObject('Form/dropdown_state'), 0)
@@ -83,13 +100,9 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Form/btn_submit'))
 
-WebUI.verifyElementPresent(findTestObject('Verify/popup_modal_success'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Verify/popup_modal_success'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Verify/msg_thanks_for_submit'), 0)
-
-WebUI.verifyElementText(findTestObject('Verify/student_name'), 'Jenar Kuswidiardi')
-
-WebUI.verifyElementText(findTestObject('Verify/student_email'), 'jenar@yopmail.com')
+WebUI.verifyElementNotPresent(findTestObject('Verify/msg_thanks_for_submit'), 0)
 
 WebUI.closeBrowser()
 

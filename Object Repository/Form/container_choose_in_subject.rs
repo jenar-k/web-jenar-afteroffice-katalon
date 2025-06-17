@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_subject</name>
+   <name>container_choose_in_subject</name>
    <tag></tag>
-   <elementGuidId>17ede890-be37-45d3-a62d-bf46aeee80be</elementGuidId>
+   <elementGuidId>47dee1dc-7618-462b-81b6-ee8bd3825275</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='subjectsInput']</value>
+         <value>//div[@id='react-select-2-option-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

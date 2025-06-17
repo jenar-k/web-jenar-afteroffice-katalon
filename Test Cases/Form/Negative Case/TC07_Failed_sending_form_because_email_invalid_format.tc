@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Failed_sending_form_because_email_invalid_format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd55c2af-59dd-46be-a224-11a404e56df3</testCaseGuid>
+</TestCaseEntity>

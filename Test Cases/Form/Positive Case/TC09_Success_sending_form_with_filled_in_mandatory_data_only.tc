@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC07_Success_sending_form_and_verify_it</name>
+   <name>TC09_Success_sending_form_with_filled_in_mandatory_data_only</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b1a16798-8fc3-42ad-ab65-b4877a140842</testCaseGuid>
+   <testCaseGuid>418966d6-92e7-4a6c-8f9a-9bf439673787</testCaseGuid>
 </TestCaseEntity>

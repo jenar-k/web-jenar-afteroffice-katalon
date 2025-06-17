@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_subject</name>
+   <name>picture</name>
    <tag></tag>
-   <elementGuidId>17ede890-be37-45d3-a62d-bf46aeee80be</elementGuidId>
+   <elementGuidId>80c9e244-88ab-442b-8b00-50cebabc8dcb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//td[contains(text(),'user-profile.jpg')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='subjectsInput']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

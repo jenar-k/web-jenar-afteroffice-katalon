@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_subject</name>
+   <name>subjects</name>
    <tag></tag>
-   <elementGuidId>17ede890-be37-45d3-a62d-bf46aeee80be</elementGuidId>
+   <elementGuidId>d75c91e9-c126-4bec-b0c7-47c8639e82cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='subjectsInput']</value>
+         <value>//td[contains(text(),'Maths, Arts')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

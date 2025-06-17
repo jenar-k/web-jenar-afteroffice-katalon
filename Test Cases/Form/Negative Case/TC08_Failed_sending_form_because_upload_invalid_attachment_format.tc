@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Failed_sending_form_because_upload_invalid_attachment_format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>275f8ffb-dd66-4f52-be72-5d9d55ddc531</testCaseGuid>
+</TestCaseEntity>

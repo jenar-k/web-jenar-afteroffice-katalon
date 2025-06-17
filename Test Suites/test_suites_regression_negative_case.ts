@@ -12,45 +12,59 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>d89dbbee-8a40-43fd-a22d-3adba5d89eb4</testSuiteGuid>
    <testCaseLink>
-      <guid>96b09d2c-1add-4f8d-b01c-542218c464da</guid>
+      <guid>88417f76-be42-4325-84d9-162c39d83e6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form/Negative Case/TC01_Failed_send_form_because_all_mandatory_fields_is_empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c0cc9c9-87a8-4bf1-a7fc-b9cb504c4a6d</guid>
+      <guid>7766afbc-b8bb-419e-84c2-2d56ca09dfab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form/Negative Case/TC02_Failed_send_form_because_firstname_is_empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b5b66f3-8029-434e-bc56-b6e3b8c1b83e</guid>
+      <guid>af8b85c7-096a-461f-abdb-b18dfba0a514</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form/Negative Case/TC03_Failed_send_form_because_lastname_is_empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac709cf2-2bd1-4813-8e7c-e362ade58458</guid>
+      <guid>b802b743-fb6f-49a4-9042-8acc4fb9d416</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form/Negative Case/TC04_Failed_send_form_because_gender_is_empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>13ef66ec-77b9-4f64-9d96-91295f175a35</guid>
+      <guid>8a9e4b53-f00e-4158-b9e2-001e61a4069a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form/Negative Case/TC05_Failed_send_form_because_phonenumber_is_empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9d80c2b2-450d-424d-a3a8-9e7ccec68fe4</guid>
+      <guid>b2f711c4-fe5f-42d4-839d-fd1270e64373</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form/Negative Case/TC06_Failed_send_form_because_phonenumber_less_than_10digits</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6bdf356-0e7f-412b-ab11-11ef392d10a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Form/Negative Case/TC07_Failed_sending_form_because_email_invalid_format</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d41237aa-58ff-4d66-b6d6-b1e9a2be83bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Form/Negative Case/TC08_Failed_sending_form_because_upload_invalid_attachment_format</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
