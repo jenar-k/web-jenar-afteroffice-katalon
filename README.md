@@ -58,14 +58,14 @@ Hasil pengujian juga saya lampirkan dalam bentuk **gambar**/screenshot seperti b
 
 ## ❌ Failed Reason and Solution ✅
 
-Dari hasil pengujian, terdapat satu case yang **FAILED**. case yang failed adalah **TC08 - Failed sending form because upload invalid attachment format**, dimana application under test masih dapat meng-upload attachment yang bukan format image. Expected dari testcase tersebut adalah application under test hanya dapat meng-upload attachment yang berformat image
+Dari hasil pengujian, terdapat satu case yang **FAILED**. Case yang failed adalah **TC08 - Failed sending form because upload invalid attachment format**, dimana application under test masih dapat meng-upload attachment yang bukan format image. Expected dari testcase tersebut adalah application under test hanya dapat meng-upload attachment yang berformat image.
 
 ## 📌 Solusi
 
-Solusi yang dapat dilakukan adalah:
+Solusi yang dapat dilakukan adalah melakukan followup ke engineer/ developer agar dilakukan fixing dengan QA memberikan saran sebagai berikut:
 
-- **FrontEnd**: sebagai layer pertama, developer perlu melakukan filtering dengan hanya menampilkan file berformat image
-- **BackEnd**: sebagai layer kedua, developer perlu melakukan validasi jika format yang diupload oleh user bukan berformat image maka akan ditolak dan menampilkan alert message. Mengantisipasi jika user berhasil menemukan cara untuk mengupload attachment yang berformat bukan image
+- **FrontEnd**: sebagai layer pertama pencegahan issue, developer perlu melakukan filtering dengan hanya menampilkan file berformat image.
+- **BackEnd**: sebagai layer kedua pencegahan issue, developer perlu melakukan validasi jika format yang diupload oleh user bukan berformat image maka akan ditolak dan menampilkan alert message. Mengantisipasi jika user berhasil menemukan cara untuk mengupload attachment yang berformat bukan image.
 
 
 ## 📬 Contact Me
